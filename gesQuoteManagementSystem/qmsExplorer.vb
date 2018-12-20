@@ -10,6 +10,7 @@ Imports System.Net.Mail
 
 'Imports Outlook = Microsoft.Office.Interop.Outlook
 'This code is in GitHub repository now.
+'Trying to Clone***
 
 Public Class qmsExplorer
 
