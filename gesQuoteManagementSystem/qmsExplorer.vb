@@ -9,6 +9,7 @@ Imports System.Runtime.InteropServices
 Imports System.Net.Mail
 
 'Imports Outlook = Microsoft.Office.Interop.Outlook
+'This code is in GitHub repository now.
 
 Public Class qmsExplorer
 
