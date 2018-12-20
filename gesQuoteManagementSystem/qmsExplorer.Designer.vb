@@ -22,76 +22,76 @@ Partial Class qmsExplorer
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(qmsExplorer))
-        Me.Panel10 = New System.Windows.Forms.Panel
-        Me.cmbShowOption = New System.Windows.Forms.ComboBox
-        Me.chkShowMyQuotes = New System.Windows.Forms.CheckBox
-        Me.cmbSearchBy = New System.Windows.Forms.ComboBox
-        Me.lblMsg = New System.Windows.Forms.Label
-        Me.btnRun = New System.Windows.Forms.Button
-        Me.txtSearchValue = New System.Windows.Forms.TextBox
-        Me.Label15 = New System.Windows.Forms.Label
-        Me.Panel1 = New System.Windows.Forms.Panel
-        Me.DGView1 = New System.Windows.Forms.DataGridView
+        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.cmbShowOption = New System.Windows.Forms.ComboBox()
+        Me.chkShowMyQuotes = New System.Windows.Forms.CheckBox()
+        Me.cmbSearchBy = New System.Windows.Forms.ComboBox()
+        Me.lblMsg = New System.Windows.Forms.Label()
+        Me.btnRun = New System.Windows.Forms.Button()
+        Me.txtSearchValue = New System.Windows.Forms.TextBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.DGView1 = New System.Windows.Forms.DataGridView()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.btnMakeCopy = New System.Windows.Forms.Button
-        Me.btnEmailQuote = New System.Windows.Forms.Button
-        Me.btnOpenQuote = New System.Windows.Forms.Button
-        Me.btnPDF = New System.Windows.Forms.Button
-        Me.Panel2 = New System.Windows.Forms.Panel
-        Me.Panel5 = New System.Windows.Forms.Panel
-        Me.TabControl1 = New System.Windows.Forms.TabControl
-        Me.TabPage1 = New System.Windows.Forms.TabPage
-        Me.lblCreatedByEmailID = New System.Windows.Forms.Label
-        Me.lblQuoteRequest = New System.Windows.Forms.LinkLabel
-        Me.lblMsg1 = New System.Windows.Forms.Label
-        Me.dgvEvents = New System.Windows.Forms.DataGridView
-        Me.Label3 = New System.Windows.Forms.Label
-        Me.lblFileMissing = New System.Windows.Forms.Label
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView
-        Me.Label10 = New System.Windows.Forms.Label
-        Me.txtQuoteFileName = New System.Windows.Forms.TextBox
-        Me.txtPreparedBy = New System.Windows.Forms.TextBox
-        Me.txtQType = New System.Windows.Forms.TextBox
-        Me.txtQuoteStatus = New System.Windows.Forms.TextBox
-        Me.txtDepartment1 = New System.Windows.Forms.TextBox
-        Me.txtQuoteDescription = New System.Windows.Forms.TextBox
-        Me.txtContact1 = New System.Windows.Forms.TextBox
-        Me.txtClientEmail1 = New System.Windows.Forms.TextBox
-        Me.txtClientContactPerson1 = New System.Windows.Forms.TextBox
-        Me.txtClientAddress1 = New System.Windows.Forms.TextBox
-        Me.txtQuoteNo = New System.Windows.Forms.TextBox
-        Me.txtClientName = New System.Windows.Forms.TextBox
-        Me.Label14 = New System.Windows.Forms.Label
-        Me.Label13 = New System.Windows.Forms.Label
-        Me.Label12 = New System.Windows.Forms.Label
-        Me.Label11 = New System.Windows.Forms.Label
-        Me.Panel3 = New System.Windows.Forms.Panel
-        Me.Label7 = New System.Windows.Forms.Label
-        Me.lblQTitle1 = New System.Windows.Forms.Label
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.Label6 = New System.Windows.Forms.Label
-        Me.Label4 = New System.Windows.Forms.Label
-        Me.Label9 = New System.Windows.Forms.Label
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.Label5 = New System.Windows.Forms.Label
-        Me.txtQuoteValidDate = New System.Windows.Forms.MaskedTextBox
-        Me.Label8 = New System.Windows.Forms.Label
-        Me.txtQuoteDate = New System.Windows.Forms.MaskedTextBox
-        Me.TabPage3 = New System.Windows.Forms.TabPage
-        Me.Panel4 = New System.Windows.Forms.Panel
-        Me.Label16 = New System.Windows.Forms.Label
-        Me.lblQTitle2 = New System.Windows.Forms.Label
-        Me.TabPage2 = New System.Windows.Forms.TabPage
-        Me.lblDirectory = New System.Windows.Forms.Label
-        Me.Panel6 = New System.Windows.Forms.Panel
-        Me.Label18 = New System.Windows.Forms.Label
-        Me.lblQTitle3 = New System.Windows.Forms.Label
-        Me.ListView1 = New System.Windows.Forms.ListView
+        Me.btnMakeCopy = New System.Windows.Forms.Button()
+        Me.btnEmailQuote = New System.Windows.Forms.Button()
+        Me.btnOpenQuote = New System.Windows.Forms.Button()
+        Me.btnPDF = New System.Windows.Forms.Button()
+        Me.btnViewPDFQuote = New System.Windows.Forms.Button()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.lblCreatedByEmailID = New System.Windows.Forms.Label()
+        Me.lblQuoteRequest = New System.Windows.Forms.LinkLabel()
+        Me.lblMsg1 = New System.Windows.Forms.Label()
+        Me.dgvEvents = New System.Windows.Forms.DataGridView()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.lblFileMissing = New System.Windows.Forms.Label()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.txtQuoteFileName = New System.Windows.Forms.TextBox()
+        Me.txtPreparedBy = New System.Windows.Forms.TextBox()
+        Me.txtQType = New System.Windows.Forms.TextBox()
+        Me.txtQuoteStatus = New System.Windows.Forms.TextBox()
+        Me.txtDepartment1 = New System.Windows.Forms.TextBox()
+        Me.txtQuoteDescription = New System.Windows.Forms.TextBox()
+        Me.txtContact1 = New System.Windows.Forms.TextBox()
+        Me.txtClientEmail1 = New System.Windows.Forms.TextBox()
+        Me.txtClientContactPerson1 = New System.Windows.Forms.TextBox()
+        Me.txtClientAddress1 = New System.Windows.Forms.TextBox()
+        Me.txtQuoteNo = New System.Windows.Forms.TextBox()
+        Me.txtClientName = New System.Windows.Forms.TextBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.lblQTitle1 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.txtQuoteValidDate = New System.Windows.Forms.MaskedTextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.txtQuoteDate = New System.Windows.Forms.MaskedTextBox()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.lblQTitle2 = New System.Windows.Forms.Label()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.lblDirectory = New System.Windows.Forms.Label()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.lblQTitle3 = New System.Windows.Forms.Label()
+        Me.ListView1 = New System.Windows.Forms.ListView()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
-        Me.Label17 = New System.Windows.Forms.Label
-        Me.btnViewPDFQuote = New System.Windows.Forms.Button
+        Me.Label17 = New System.Windows.Forms.Label()
         Me.Panel10.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.DGView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -132,7 +132,7 @@ Partial Class qmsExplorer
         Me.cmbShowOption.Items.AddRange(New Object() {"Recent Quotes", "This Month", "Last Month", "All Quotes"})
         Me.cmbShowOption.Location = New System.Drawing.Point(849, 20)
         Me.cmbShowOption.Name = "cmbShowOption"
-        Me.cmbShowOption.Size = New System.Drawing.Size(161, 23)
+        Me.cmbShowOption.Size = New System.Drawing.Size(161, 27)
         Me.cmbShowOption.TabIndex = 91
         Me.cmbShowOption.Visible = False
         '
@@ -143,7 +143,7 @@ Partial Class qmsExplorer
         Me.chkShowMyQuotes.ForeColor = System.Drawing.Color.White
         Me.chkShowMyQuotes.Location = New System.Drawing.Point(1119, 16)
         Me.chkShowMyQuotes.Name = "chkShowMyQuotes"
-        Me.chkShowMyQuotes.Size = New System.Drawing.Size(163, 21)
+        Me.chkShowMyQuotes.Size = New System.Drawing.Size(205, 27)
         Me.chkShowMyQuotes.TabIndex = 90
         Me.chkShowMyQuotes.Text = "Show Only My Quotes"
         Me.chkShowMyQuotes.UseVisualStyleBackColor = True
@@ -156,7 +156,7 @@ Partial Class qmsExplorer
         Me.cmbSearchBy.FormattingEnabled = True
         Me.cmbSearchBy.Location = New System.Drawing.Point(159, 19)
         Me.cmbSearchBy.Name = "cmbSearchBy"
-        Me.cmbSearchBy.Size = New System.Drawing.Size(161, 23)
+        Me.cmbSearchBy.Size = New System.Drawing.Size(161, 27)
         Me.cmbSearchBy.TabIndex = 89
         '
         'lblMsg
@@ -166,7 +166,7 @@ Partial Class qmsExplorer
         Me.lblMsg.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.lblMsg.Location = New System.Drawing.Point(205, 46)
         Me.lblMsg.Name = "lblMsg"
-        Me.lblMsg.Size = New System.Drawing.Size(17, 12)
+        Me.lblMsg.Size = New System.Drawing.Size(19, 14)
         Me.lblMsg.TabIndex = 88
         Me.lblMsg.Text = "..."
         '
@@ -193,18 +193,18 @@ Partial Class qmsExplorer
         Me.txtSearchValue.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtSearchValue.Location = New System.Drawing.Point(320, 19)
         Me.txtSearchValue.Name = "txtSearchValue"
-        Me.txtSearchValue.Size = New System.Drawing.Size(284, 23)
+        Me.txtSearchValue.Size = New System.Drawing.Size(284, 27)
         Me.txtSearchValue.TabIndex = 65
         Me.txtSearchValue.Text = "Enter Search Value"
         '
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label15.Location = New System.Drawing.Point(12, 19)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(128, 14)
+        Me.Label15.Size = New System.Drawing.Size(137, 18)
         Me.Label15.TabIndex = 64
         Me.Label15.Text = "Search Quote By -"
         '
@@ -246,7 +246,7 @@ Partial Class qmsExplorer
         Me.btnMakeCopy.Location = New System.Drawing.Point(997, 92)
         Me.btnMakeCopy.Margin = New System.Windows.Forms.Padding(3, 1, 3, 3)
         Me.btnMakeCopy.Name = "btnMakeCopy"
-        Me.btnMakeCopy.Size = New System.Drawing.Size(79, 60)
+        Me.btnMakeCopy.Size = New System.Drawing.Size(97, 60)
         Me.btnMakeCopy.TabIndex = 132
         Me.btnMakeCopy.Text = "Make a Copy"
         Me.btnMakeCopy.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -286,7 +286,7 @@ Partial Class qmsExplorer
         Me.btnOpenQuote.Location = New System.Drawing.Point(917, 92)
         Me.btnOpenQuote.Margin = New System.Windows.Forms.Padding(3, 1, 3, 3)
         Me.btnOpenQuote.Name = "btnOpenQuote"
-        Me.btnOpenQuote.Size = New System.Drawing.Size(80, 60)
+        Me.btnOpenQuote.Size = New System.Drawing.Size(83, 60)
         Me.btnOpenQuote.TabIndex = 134
         Me.btnOpenQuote.Text = "Edit Quote"
         Me.btnOpenQuote.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -306,12 +306,32 @@ Partial Class qmsExplorer
         Me.btnPDF.Location = New System.Drawing.Point(1161, 92)
         Me.btnPDF.Margin = New System.Windows.Forms.Padding(3, 1, 3, 3)
         Me.btnPDF.Name = "btnPDF"
-        Me.btnPDF.Size = New System.Drawing.Size(93, 60)
+        Me.btnPDF.Size = New System.Drawing.Size(114, 60)
         Me.btnPDF.TabIndex = 135
         Me.btnPDF.Text = "Convert to PDF"
         Me.btnPDF.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolTip1.SetToolTip(Me.btnPDF, "Send to PDF")
         Me.btnPDF.UseVisualStyleBackColor = False
+        '
+        'btnViewPDFQuote
+        '
+        Me.btnViewPDFQuote.AutoSize = True
+        Me.btnViewPDFQuote.BackColor = System.Drawing.Color.Transparent
+        Me.btnViewPDFQuote.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnViewPDFQuote.FlatAppearance.BorderSize = 0
+        Me.btnViewPDFQuote.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnViewPDFQuote.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnViewPDFQuote.Image = CType(resources.GetObject("btnViewPDFQuote.Image"), System.Drawing.Image)
+        Me.btnViewPDFQuote.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnViewPDFQuote.Location = New System.Drawing.Point(920, 176)
+        Me.btnViewPDFQuote.Margin = New System.Windows.Forms.Padding(3, 1, 3, 3)
+        Me.btnViewPDFQuote.Name = "btnViewPDFQuote"
+        Me.btnViewPDFQuote.Size = New System.Drawing.Size(116, 60)
+        Me.btnViewPDFQuote.TabIndex = 143
+        Me.btnViewPDFQuote.Text = "View PDF Quote"
+        Me.btnViewPDFQuote.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolTip1.SetToolTip(Me.btnViewPDFQuote, "Open Quote")
+        Me.btnViewPDFQuote.UseVisualStyleBackColor = False
         '
         'Panel2
         '
@@ -387,10 +407,10 @@ Partial Class qmsExplorer
         Me.TabPage1.Controls.Add(Me.txtQuoteValidDate)
         Me.TabPage1.Controls.Add(Me.Label8)
         Me.TabPage1.Controls.Add(Me.txtQuoteDate)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 26)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(1285, 368)
+        Me.TabPage1.Size = New System.Drawing.Size(1285, 364)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Quote Details"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -402,7 +422,7 @@ Partial Class qmsExplorer
         Me.lblCreatedByEmailID.ForeColor = System.Drawing.Color.Gray
         Me.lblCreatedByEmailID.Location = New System.Drawing.Point(313, 333)
         Me.lblCreatedByEmailID.Name = "lblCreatedByEmailID"
-        Me.lblCreatedByEmailID.Size = New System.Drawing.Size(96, 13)
+        Me.lblCreatedByEmailID.Size = New System.Drawing.Size(114, 17)
         Me.lblCreatedByEmailID.TabIndex = 142
         Me.lblCreatedByEmailID.Text = "createdByEmail"
         '
@@ -412,7 +432,7 @@ Partial Class qmsExplorer
         Me.lblQuoteRequest.LinkColor = System.Drawing.Color.Blue
         Me.lblQuoteRequest.Location = New System.Drawing.Point(569, 255)
         Me.lblQuoteRequest.Name = "lblQuoteRequest"
-        Me.lblQuoteRequest.Size = New System.Drawing.Size(193, 13)
+        Me.lblQuoteRequest.Size = New System.Drawing.Size(233, 17)
         Me.lblQuoteRequest.TabIndex = 141
         Me.lblQuoteRequest.TabStop = True
         Me.lblQuoteRequest.Text = "Request a copy of this Quote"
@@ -426,7 +446,7 @@ Partial Class qmsExplorer
         Me.lblMsg1.ForeColor = System.Drawing.Color.Red
         Me.lblMsg1.Location = New System.Drawing.Point(914, 155)
         Me.lblMsg1.Name = "lblMsg1"
-        Me.lblMsg1.Size = New System.Drawing.Size(329, 13)
+        Me.lblMsg1.Size = New System.Drawing.Size(407, 17)
         Me.lblMsg1.TabIndex = 140
         Me.lblMsg1.Text = "Email Error - Convert this Quote to PDF and try again... "
         Me.lblMsg1.Visible = False
@@ -468,7 +488,7 @@ Partial Class qmsExplorer
         Me.lblFileMissing.ForeColor = System.Drawing.Color.Red
         Me.lblFileMissing.Location = New System.Drawing.Point(11, 333)
         Me.lblFileMissing.Name = "lblFileMissing"
-        Me.lblFileMissing.Size = New System.Drawing.Size(296, 13)
+        Me.lblFileMissing.Size = New System.Drawing.Size(363, 17)
         Me.lblFileMissing.TabIndex = 137
         Me.lblFileMissing.Text = "Unable to open File.  Missing,Renamed or Moved..."
         Me.lblFileMissing.Visible = False
@@ -507,7 +527,7 @@ Partial Class qmsExplorer
         Me.txtQuoteFileName.MaxLength = 10
         Me.txtQuoteFileName.Name = "txtQuoteFileName"
         Me.txtQuoteFileName.ReadOnly = True
-        Me.txtQuoteFileName.Size = New System.Drawing.Size(295, 21)
+        Me.txtQuoteFileName.Size = New System.Drawing.Size(295, 24)
         Me.txtQuoteFileName.TabIndex = 130
         '
         'txtPreparedBy
@@ -517,7 +537,7 @@ Partial Class qmsExplorer
         Me.txtPreparedBy.MaxLength = 10
         Me.txtPreparedBy.Name = "txtPreparedBy"
         Me.txtPreparedBy.ReadOnly = True
-        Me.txtPreparedBy.Size = New System.Drawing.Size(205, 21)
+        Me.txtPreparedBy.Size = New System.Drawing.Size(205, 24)
         Me.txtPreparedBy.TabIndex = 127
         '
         'txtQType
@@ -527,7 +547,7 @@ Partial Class qmsExplorer
         Me.txtQType.MaxLength = 10
         Me.txtQType.Name = "txtQType"
         Me.txtQType.ReadOnly = True
-        Me.txtQType.Size = New System.Drawing.Size(101, 21)
+        Me.txtQType.Size = New System.Drawing.Size(101, 24)
         Me.txtQType.TabIndex = 125
         '
         'txtQuoteStatus
@@ -537,7 +557,7 @@ Partial Class qmsExplorer
         Me.txtQuoteStatus.MaxLength = 10
         Me.txtQuoteStatus.Name = "txtQuoteStatus"
         Me.txtQuoteStatus.ReadOnly = True
-        Me.txtQuoteStatus.Size = New System.Drawing.Size(101, 21)
+        Me.txtQuoteStatus.Size = New System.Drawing.Size(101, 24)
         Me.txtQuoteStatus.TabIndex = 123
         '
         'txtDepartment1
@@ -548,7 +568,7 @@ Partial Class qmsExplorer
         Me.txtDepartment1.MaxLength = 10
         Me.txtDepartment1.Name = "txtDepartment1"
         Me.txtDepartment1.ReadOnly = True
-        Me.txtDepartment1.Size = New System.Drawing.Size(355, 21)
+        Me.txtDepartment1.Size = New System.Drawing.Size(355, 24)
         Me.txtDepartment1.TabIndex = 118
         Me.txtDepartment1.Text = "[Department]"
         '
@@ -571,7 +591,7 @@ Partial Class qmsExplorer
         Me.txtContact1.MaxLength = 10
         Me.txtContact1.Name = "txtContact1"
         Me.txtContact1.ReadOnly = True
-        Me.txtContact1.Size = New System.Drawing.Size(355, 21)
+        Me.txtContact1.Size = New System.Drawing.Size(355, 24)
         Me.txtContact1.TabIndex = 116
         Me.txtContact1.Text = "[Contact1]"
         '
@@ -583,7 +603,7 @@ Partial Class qmsExplorer
         Me.txtClientEmail1.MaxLength = 10
         Me.txtClientEmail1.Name = "txtClientEmail1"
         Me.txtClientEmail1.ReadOnly = True
-        Me.txtClientEmail1.Size = New System.Drawing.Size(355, 21)
+        Me.txtClientEmail1.Size = New System.Drawing.Size(355, 24)
         Me.txtClientEmail1.TabIndex = 115
         Me.txtClientEmail1.Text = "[Email]"
         '
@@ -595,7 +615,7 @@ Partial Class qmsExplorer
         Me.txtClientContactPerson1.MaxLength = 10
         Me.txtClientContactPerson1.Name = "txtClientContactPerson1"
         Me.txtClientContactPerson1.ReadOnly = True
-        Me.txtClientContactPerson1.Size = New System.Drawing.Size(355, 21)
+        Me.txtClientContactPerson1.Size = New System.Drawing.Size(355, 24)
         Me.txtClientContactPerson1.TabIndex = 114
         Me.txtClientContactPerson1.Text = "[Contact Person]"
         '
@@ -621,7 +641,7 @@ Partial Class qmsExplorer
         Me.txtQuoteNo.MaxLength = 10
         Me.txtQuoteNo.Name = "txtQuoteNo"
         Me.txtQuoteNo.ReadOnly = True
-        Me.txtQuoteNo.Size = New System.Drawing.Size(101, 21)
+        Me.txtQuoteNo.Size = New System.Drawing.Size(101, 24)
         Me.txtQuoteNo.TabIndex = 89
         Me.txtQuoteNo.Text = "Quote#"
         '
@@ -633,7 +653,7 @@ Partial Class qmsExplorer
         Me.txtClientName.MaxLength = 10
         Me.txtClientName.Name = "txtClientName"
         Me.txtClientName.ReadOnly = True
-        Me.txtClientName.Size = New System.Drawing.Size(355, 21)
+        Me.txtClientName.Size = New System.Drawing.Size(355, 24)
         Me.txtClientName.TabIndex = 112
         Me.txtClientName.Text = "[FullName]"
         '
@@ -669,7 +689,7 @@ Partial Class qmsExplorer
         Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Label12.Location = New System.Drawing.Point(15, 153)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(53, 14)
+        Me.Label12.Size = New System.Drawing.Size(63, 18)
         Me.Label12.TabIndex = 124
         Me.Label12.Text = "Status:"
         '
@@ -681,7 +701,7 @@ Partial Class qmsExplorer
         Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Label11.Location = New System.Drawing.Point(15, 126)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(41, 14)
+        Me.Label11.Size = New System.Drawing.Size(50, 18)
         Me.Label11.TabIndex = 122
         Me.Label11.Text = "Type:"
         '
@@ -703,7 +723,7 @@ Partial Class qmsExplorer
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label7.Location = New System.Drawing.Point(1138, 13)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(136, 23)
+        Me.Label7.Size = New System.Drawing.Size(167, 29)
         Me.Label7.TabIndex = 65
         Me.Label7.Text = "Quote View"
         '
@@ -714,7 +734,7 @@ Partial Class qmsExplorer
         Me.lblQTitle1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.lblQTitle1.Location = New System.Drawing.Point(12, 13)
         Me.lblQTitle1.Name = "lblQTitle1"
-        Me.lblQTitle1.Size = New System.Drawing.Size(128, 23)
+        Me.lblQTitle1.Size = New System.Drawing.Size(158, 29)
         Me.lblQTitle1.TabIndex = 64
         Me.lblQTitle1.Text = " Quote # - "
         '
@@ -750,7 +770,7 @@ Partial Class qmsExplorer
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Label4.Location = New System.Drawing.Point(15, 99)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(65, 14)
+        Me.Label4.Size = New System.Drawing.Size(78, 18)
         Me.Label4.TabIndex = 86
         Me.Label4.Text = "Quote #:"
         '
@@ -774,7 +794,7 @@ Partial Class qmsExplorer
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(309, 99)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(92, 14)
+        Me.Label2.Size = New System.Drawing.Size(107, 18)
         Me.Label2.TabIndex = 87
         Me.Label2.Text = "Prepared On:"
         '
@@ -786,7 +806,7 @@ Partial Class qmsExplorer
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Label5.Location = New System.Drawing.Point(309, 126)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(99, 14)
+        Me.Label5.Size = New System.Drawing.Size(117, 18)
         Me.Label5.TabIndex = 90
         Me.Label5.Text = "Quote Validity:"
         '
@@ -798,7 +818,7 @@ Partial Class qmsExplorer
         Me.txtQuoteValidDate.Mask = "00/00/0000"
         Me.txtQuoteValidDate.Name = "txtQuoteValidDate"
         Me.txtQuoteValidDate.ReadOnly = True
-        Me.txtQuoteValidDate.Size = New System.Drawing.Size(101, 21)
+        Me.txtQuoteValidDate.Size = New System.Drawing.Size(101, 24)
         Me.txtQuoteValidDate.TabIndex = 92
         '
         'Label8
@@ -821,15 +841,15 @@ Partial Class qmsExplorer
         Me.txtQuoteDate.Mask = "00/00/0000"
         Me.txtQuoteDate.Name = "txtQuoteDate"
         Me.txtQuoteDate.ReadOnly = True
-        Me.txtQuoteDate.Size = New System.Drawing.Size(101, 21)
+        Me.txtQuoteDate.Size = New System.Drawing.Size(101, 24)
         Me.txtQuoteDate.TabIndex = 91
         '
         'TabPage3
         '
         Me.TabPage3.Controls.Add(Me.Panel4)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 26)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(1285, 368)
+        Me.TabPage3.Size = New System.Drawing.Size(1285, 364)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Quote Followup"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -852,7 +872,7 @@ Partial Class qmsExplorer
         Me.Label16.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label16.Location = New System.Drawing.Point(1169, 13)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(108, 23)
+        Me.Label16.Size = New System.Drawing.Size(135, 29)
         Me.Label16.TabIndex = 65
         Me.Label16.Text = "Followup"
         '
@@ -863,7 +883,7 @@ Partial Class qmsExplorer
         Me.lblQTitle2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.lblQTitle2.Location = New System.Drawing.Point(12, 13)
         Me.lblQTitle2.Name = "lblQTitle2"
-        Me.lblQTitle2.Size = New System.Drawing.Size(128, 23)
+        Me.lblQTitle2.Size = New System.Drawing.Size(158, 29)
         Me.lblQTitle2.TabIndex = 64
         Me.lblQTitle2.Text = " Quote # - "
         '
@@ -873,10 +893,10 @@ Partial Class qmsExplorer
         Me.TabPage2.Controls.Add(Me.Panel6)
         Me.TabPage2.Controls.Add(Me.ListView1)
         Me.TabPage2.Controls.Add(Me.Label17)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 26)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(1285, 368)
+        Me.TabPage2.Size = New System.Drawing.Size(1285, 364)
         Me.TabPage2.TabIndex = 3
         Me.TabPage2.Text = "History"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -889,7 +909,7 @@ Partial Class qmsExplorer
         Me.lblDirectory.ForeColor = System.Drawing.Color.Gray
         Me.lblDirectory.Location = New System.Drawing.Point(20, 320)
         Me.lblDirectory.Name = "lblDirectory"
-        Me.lblDirectory.Size = New System.Drawing.Size(296, 13)
+        Me.lblDirectory.Size = New System.Drawing.Size(363, 17)
         Me.lblDirectory.TabIndex = 141
         Me.lblDirectory.Text = "Unable to open File.  Missing,Renamed or Moved..."
         Me.lblDirectory.Visible = False
@@ -912,7 +932,7 @@ Partial Class qmsExplorer
         Me.Label18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label18.Location = New System.Drawing.Point(1174, 13)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(87, 23)
+        Me.Label18.Size = New System.Drawing.Size(110, 29)
         Me.Label18.TabIndex = 65
         Me.Label18.Text = "History"
         '
@@ -923,7 +943,7 @@ Partial Class qmsExplorer
         Me.lblQTitle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.lblQTitle3.Location = New System.Drawing.Point(12, 13)
         Me.lblQTitle3.Name = "lblQTitle3"
-        Me.lblQTitle3.Size = New System.Drawing.Size(128, 23)
+        Me.lblQTitle3.Size = New System.Drawing.Size(158, 29)
         Me.lblQTitle3.TabIndex = 64
         Me.lblQTitle3.Text = " Quote # - "
         '
@@ -958,29 +978,9 @@ Partial Class qmsExplorer
         Me.Label17.Text = "Quote History"
         Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'btnViewPDFQuote
-        '
-        Me.btnViewPDFQuote.AutoSize = True
-        Me.btnViewPDFQuote.BackColor = System.Drawing.Color.Transparent
-        Me.btnViewPDFQuote.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnViewPDFQuote.FlatAppearance.BorderSize = 0
-        Me.btnViewPDFQuote.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnViewPDFQuote.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnViewPDFQuote.Image = CType(resources.GetObject("btnViewPDFQuote.Image"), System.Drawing.Image)
-        Me.btnViewPDFQuote.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.btnViewPDFQuote.Location = New System.Drawing.Point(920, 176)
-        Me.btnViewPDFQuote.Margin = New System.Windows.Forms.Padding(3, 1, 3, 3)
-        Me.btnViewPDFQuote.Name = "btnViewPDFQuote"
-        Me.btnViewPDFQuote.Size = New System.Drawing.Size(94, 60)
-        Me.btnViewPDFQuote.TabIndex = 143
-        Me.btnViewPDFQuote.Text = "View PDF Quote"
-        Me.btnViewPDFQuote.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ToolTip1.SetToolTip(Me.btnViewPDFQuote, "Open Quote")
-        Me.btnViewPDFQuote.UseVisualStyleBackColor = False
-        '
         'qmsExplorer
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 17.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1293, 712)
         Me.Controls.Add(Me.Panel5)
