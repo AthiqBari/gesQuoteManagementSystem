@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <setting>
+    <local_document_folder>C:\Users\admin\Google Drive\</local_document_folder>
+    <logged_user_folder>C:\Users\admin\Google Drive\SH</logged_user_folder>
+	<email_cc1>souhail.hachicho@globeexpress.com</email_cc1>
+	<email_cc2>athiq.pasha@globeexpress.com</email_cc2>
+    <remoteserver>mssql1004.ixwebhosting.com</remoteserver>
+    <remotedatabase>C53873_gesManagement</remotedatabase>
+    <remoteuser>c53873_mssql</remoteuser>
+    <remotepassword>msSQL123</remotepassword>
+  </setting>
+</NewDataSet>

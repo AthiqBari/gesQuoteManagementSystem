@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <setting>
+	<local_qmsfolder>y:\qmsdata\</local_qmsfolder>
+	<excel_app>C:\Program Files (x86)\Microsoft Office\root\Office16\excel.exe</excel_app>
+	<email_cc1></email_cc1>
+	<email_cc2>athiq.bari@gesksa.com</email_cc2>
+	<ftp_url>ftp://gesksa.com/gesksa.com/ksaquotes/</ftp_url>
+	<ftp_usr>xx</ftp_usr>
+	<ftp_pwd>xx</ftp_pwd>
+	<qmsuser>SMH</qmsuser>
+<!--Remote Data Server Location -->
+    <remoteserver>mssql1004.ixwebhosting.com</remoteserver>
+    <remotedatabase>C53873_gesM:\qanagement</remotedatabase>
+    <remoteuser>c53873_mssql</remoteuser>
+    <remotepassword>msSQL123</remotepassword>
+<!--Google Drive Shared Folder used account gesksa-md@overseas-global.com-->
+<gdrivepath>C:\qmsData\PDF</gdrivepath>
+<!--Email Settings -->
+    <emailSubject>GESKSA - Quotation# </emailSubject>
+    <emailTitle1>As requested, please find enclosed our quotation :  </emailTitle1>
+    <emailTitle2>Thank you for your interest in working with GES. Looking forward to hearing from you.</emailTitle2>
+    <emailTitle3>.</emailTitle3>
+    <emailTitle4>.</emailTitle4>
+<!--Excel Data Field Location -->
+	<qdate>i8</qdate>
+	<qno>i9</qno>
+	<qvalidity>i10</qvalidity>
+	<qfcy>i11</qfcy>
+	<qShpType>i12</qShpType>
+	<qTemplate>i13</qTemplate>
+	<qClientName>a9</qClientName>
+	<qClientAddr>a10</qClientAddr>
+	<qClientAttn>a12</qClientAttn>
+	<qClientDept>a13</qClientDept>
+	<qclientemail>a13</qclientemail>
+	<qTitle>a15</qTitle>
+	<qNote>a17</qNote>
+
+	<qUserName>b91</qUserName>
+	<qUserTitle>b92</qUserTitle>
+	<qBranchAddr>a89</qBranchAddr>
+
+	<qauthorizedby_cell>h91</qauthorizedby_cell>
+	<qauthorizedsign_cell>h92</qauthorizedsign_cell>
+	<authorizedby_name> **** </authorizedby_name>
+	<authorizedby_title> **** </authorizedby_title>
+	<clientapproval_name_cell>b99</clientapproval_name_cell>
+	<clientapproval_title_cell>b100</clientapproval_title_cell>
+	<emailSignFile>atqges.htm</emailSignFile>
+
+  </setting>
+</NewDataSet>
